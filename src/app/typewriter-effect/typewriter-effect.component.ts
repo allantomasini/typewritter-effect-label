@@ -1,11 +1,11 @@
 import { AfterViewInit, Component, ElementRef, Input, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-typewritter-effect',
-  templateUrl: './typewritter-effect.component.html',
-  styleUrls: ['./typewritter-effect.component.scss'],
+  selector: 'app-typewriter-effect',
+  templateUrl: './typewriter-effect.component.html',
+  styleUrls: ['./typewriter-effect.component.scss'],
 })
-export class TypewritterEffectComponent implements AfterViewInit {
+export class TypewriterEffectComponent implements AfterViewInit {
   @ViewChild('textElement') textElement: ElementRef;
   @ViewChild('blinkElement') blinkElement: ElementRef;
   @Input() text = '';

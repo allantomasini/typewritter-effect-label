@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TypewritterEffectComponent } from './typewritter-effect.component';
+import { TypewriterEffectComponent } from './typewriter-effect.component';
 
 describe('TypewritterEffectComponent', () => {
-  let component: TypewritterEffectComponent;
-  let fixture: ComponentFixture<TypewritterEffectComponent>;
+  let component: TypewriterEffectComponent;
+  let fixture: ComponentFixture<TypewriterEffectComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TypewritterEffectComponent ]
+      declarations: [ TypewriterEffectComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TypewritterEffectComponent);
+    fixture = TestBed.createComponent(TypewriterEffectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
